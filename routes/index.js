@@ -28,6 +28,8 @@ routes = function (app) {
 
 
         router.use(require('./ideas.route'));
+        router.use(require('./news.route'));
+        router.use(require('./users.route'));
     });
 
 
